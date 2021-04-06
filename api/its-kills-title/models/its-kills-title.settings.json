@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "its_kills_titles",
+  "info": {
+    "name": "itsKillsTitle"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Icon": {
+      "type": "string"
+    },
+    "Title": {
+      "type": "string"
+    }
+  }
+}

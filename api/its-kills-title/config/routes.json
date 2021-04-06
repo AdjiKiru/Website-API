@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/its-kills-title",
+      "handler": "its-kills-title.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/its-kills-title",
+      "handler": "its-kills-title.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/its-kills-title",
+      "handler": "its-kills-title.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

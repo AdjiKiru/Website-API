@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "projects_titles",
+  "info": {
+    "name": "projectsTitle"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Icon": {
+      "type": "string"
+    },
+    "Title": {
+      "type": "string"
+    }
+  }
+}

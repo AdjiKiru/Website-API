@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_mes",
+  "info": {
+    "name": "aboutMe"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "GeneralInformation": {
+      "type": "string"
+    },
+    "Icon": {
+      "type": "string"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Description1": {
+      "type": "text"
+    },
+    "Description2": {
+      "type": "text"
+    },
+    "Description3": {
+      "type": "text"
+    }
+  }
+}

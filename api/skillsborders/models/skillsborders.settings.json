@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "skillsborders",
+  "info": {
+    "name": "skillsborders"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "SkillName": {
+      "type": "string"
+    },
+    "SkillPercentage": {
+      "type": "integer"
+    },
+    "SkillLogo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "SkillCircleColor": {
+      "type": "string"
+    },
+    "SkillColorBackground": {
+      "type": "string"
+    },
+    "SkillColor1": {
+      "type": "string"
+    },
+    "SkillColor2": {
+      "type": "string"
+    }
+  }
+}

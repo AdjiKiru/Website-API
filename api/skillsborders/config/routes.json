@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/skillsborders",
+      "handler": "skillsborders.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/skillsborders/count",
+      "handler": "skillsborders.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/skillsborders/:id",
+      "handler": "skillsborders.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/skillsborders",
+      "handler": "skillsborders.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/skillsborders/:id",
+      "handler": "skillsborders.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/skillsborders/:id",
+      "handler": "skillsborders.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
